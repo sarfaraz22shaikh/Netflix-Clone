@@ -1,0 +1,316 @@
+body{
+    background-color:#000000c2;
+}
+*{
+    padding : 0;
+    margin : 0 ;
+   /* // border: border-box; */
+}
+.img1{
+    visibility: unset;
+    box-sizing: border-box;
+    height :800px;
+    width : 100%;
+    box-shadow: 50px 50px 30px rgba(0, 0, 0, 0.5);
+    background-image:url("image11.jpg");
+    background-size: cover ;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.section1{
+    height: 200px;
+    width : 885px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#netfliximg{
+    position : relative;
+    left : 170px;
+    bottom : 50px;
+    height : 100px;
+    width : 250px;
+    background-image:url("logo.png");
+    background-size : cover;
+}
+select{
+    border-radius: 7px;
+
+    background-color: black;
+    color: white;
+    height: 32px;
+    width : 125px;
+}
+#select option{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 36px;
+    padding-right:36px;
+    height: 70px;
+    width : 200px;
+    color : rgba(0, 0, 0, 0.585);
+}
+#signbtn button{
+    border-radius: 7px;
+    position : relative;
+    left : 520px;
+    bottom : 50px;
+    height: 32px;
+    width : 125px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    border : solid rgb(209,10,20) 8px;
+    color: white;
+    font-weight: 500;
+    font-size :0.875rem;
+    background-color : rgb(209,10,20);
+}
+#select{
+    position : relative;
+    left : 700px;
+    bottom : 50px;
+}
+.midsection{
+    font-size: 3rem;
+    color: white;
+    font-family: serif;
+}
+#inpbtn{
+    position : relative;
+    top : 170px;
+    display : flex;
+    justify-content: center;
+}
+#inpbtn button{
+    height: 70px;
+    width: 210px;
+    background-color: rgb(209,10,20);
+}
+#getbtn{
+    border-radius: 8px;
+    margin-left : 10px;
+    font-weight: 800;
+    color: aliceblue;
+    font-size: 1.2rem;
+}
+#email{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color : white;
+    background-color: rgba(0, 0, 0, 0.622);
+    border-radius: 8px;
+    width: 400px;
+}
+#para1{
+    font-size: 4rem;
+    position : relative;
+    top : 130px;
+    left:150px;
+    font-weight: 900;
+}
+#para2{
+    position : relative;
+    top : 130px;
+    left:630px;
+    font-weight: 900;
+}
+#para3{
+    font-size: 2rem;
+    position : relative;
+    top : 140px;
+    left:560px;
+    font-weight: 300;
+}
+#para4{
+    font-size: 2rem;
+    position : relative;
+    top : 150px;
+    left:320px;
+    font-weight: 300;
+}
+.section2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    height : 650px;
+    width: 100%;
+    background-color:black;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.parasection{
+    position: relative;
+    top : 150px;
+    right: 70px;
+}
+.parasection{
+    font-size: 1.7rem;
+}
+.p1{
+    font-weight: 900;
+    font-size: 3rem;
+}
+.p2{
+    position: relative;
+    top : 10px;
+}
+.vedio{
+    z-index: 0;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    right :547px;
+    top : 4px;
+}
+.section2 img{
+    z-index: 2;
+}
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 10px;
+    height : 650px;
+    width: 100%;
+    background-color:black;
+}
+.sec3para1{
+    font-weight: 800;
+font-size: 4rem;
+}
+.sec3para2{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 8px;
+}
+.sec3loading{
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.952);
+    position: relative;
+    bottom : 160px;
+    left : 150px;
+    border : solid rgba(255, 247, 247, 0.385) 2px;
+    height: 100px;
+    width: 340px;
+    display:flex;
+    justify-content: space-between;
+}
+#sec3loadpara1{
+    position: relative;
+    top : 25px;
+    font-weight: 700;
+}
+#sec3loadpara2{
+    position: relative;
+    top : 25px;
+    color: rgba(0, 0, 255, 0.749);
+}
+#lastsec{
+    margin-top: 10px;
+    height: 60px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: rgb(45,45,45);
+    position : relative;
+    left: 250px;
+}
+.section5{
+    color: white;
+    height : 650px;
+    width: 100%;
+    background-color:black;
+}
+.section5 h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    position: relative;
+    left : 600px;
+}
+#inpbtn1{
+    position : relative;
+    top : 60px;
+    display : flex;
+    justify-content: center;
+}
+#inpbtn1 button{
+    height: 70px;
+    width: 210px;
+    background-color: rgb(209,10,20);
+}
+#getbtn{
+    border-radius: 8px;
+    margin-left : 10px;
+    font-weight: 800;
+    color: aliceblue;
+    font-size: 1.2rem;
+}
+#email{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color : white;
+    background-color: rgba(0, 0, 0, 0.622);
+    border-radius: 8px;
+    width: 400px;
+}
+.section5 h2 {
+    position: relative;
+    left : 450px;
+    top : 50px;
+    font-weight: 400;
+}
+.section6{
+    display: flex;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color:rgba(255, 255, 255, 0.558);
+    height : 550px;
+    width: 100%;
+    background-color:black;
+
+}
+.list{
+    font-weight: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.list ul{
+    list-style: none;
+    text-decoration: underline;
+    padding-right:150px;
+}
+.list li{
+    padding: 10px;
+}
+.section6 h4{
+    position : relative;
+    bottom: 20px;
+}
+#select1{
+size: 2rem;
+    position : relative;
+    top : 35px;
+}
+.section6 p{
+    position : relative;
+    top : 70px;
+}
+#final{
+    font-size: 50px;
+    padding-right: 10px;
+}
+#lastp{
+    margin-left: 15px;
+}
